@@ -20,7 +20,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className='mt-4'>
-                  <h1 className='text-center text-slate-200 text-2xl '>Танилцууга</h1>
+                  <h1 className='text-center text-slate-200 text-2xl '>Танилцууга </h1>
                 </div>
                 <div className='mt-4'>
                   <p className='text-center text-slate-400 text-sm w-72 px-4 tracking-wide leading-relaxed'>Танай байгууллагын хэрэгцээ шаардлагад нийцүүлэн орчин үеийн шийдэл бүхий өнгөлөг шинэлэг вебсайтыг санал болгож байна.</p>
