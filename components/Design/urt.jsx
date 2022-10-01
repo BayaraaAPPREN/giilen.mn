@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiOutlineCheck} from 'react-icons/ai'
 
-const urt = () => {
+const Urt = () => {
   return (
     <div className='flex flex-wrap justify-center '>
     <div className='group cursor-pointer mt-4'>
@@ -10,7 +10,7 @@ const urt = () => {
             <h1 className='text-white  text-2xl font-bold font-mono'>Энгийн багц</h1>
             <p className='text-[#A5BBE5] text-sm'> almost business that  want  to the optimize web quieries</p>
             <div className='flex items-center'>
-                <p className='font-bold text-2xl text-white'>100'000</p>
+                <p className='font-bold text-2xl text-white'>100 000</p>
                 <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/day</p>
             </div>
             <div className='border-b border-slate-600'></div>
@@ -44,7 +44,7 @@ const urt = () => {
             <h1 className='text-white  text-2xl font-bold font-mono'>Стандарт багц</h1>
             <p className='text-[#A5BBE5] text-sm'>For almost business that  want  to the optimize web quieries</p>
             <div className='flex items-center'>
-                <p className='font-bold text-2xl text-white'>100'000</p>
+                <p className='font-bold text-2xl text-white'>100 000</p>
                 <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/day</p>
             </div>
             <div className='border-b border-slate-600'></div>
@@ -78,7 +78,7 @@ const urt = () => {
             <h1 className='text-white  text-2xl font-bold font-mono'>Супер багц</h1>
             <p className='text-[#A5BBE5] text-sm'>For almost business that  want  to the optimize web quieries</p>
             <div className='flex items-center'>
-                <p className='font-bold text-2xl text-white'>100'000</p>
+                <p className='font-bold text-2xl text-white'>100 000</p>
                 <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/day</p>
             </div>
             <div className='border-b border-slate-600'></div>
@@ -110,4 +110,4 @@ const urt = () => {
   )
 }
 
-export default urt
+export default Urt

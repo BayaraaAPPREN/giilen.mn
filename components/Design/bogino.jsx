@@ -1,10 +1,10 @@
-import React from 'react'
+
 import {AiOutlineCheck} from 'react-icons/ai'
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
-const bogino = () => {
-    let [isOpen, setIsOpen] = useState(false)
+const Bogino = () => {
+    const [isOpen, setIsOpen] = useState(false);
 
     function closeModal() {
       setIsOpen(false)
@@ -74,7 +74,7 @@ const bogino = () => {
                 <h1 className='text-white  text-2xl font-bold font-mono'>Энгийн багц</h1>
                 <p className='text-[#A5BBE5] text-sm'>3ш постер дизайн эх бэлтгэл</p>
                 <div className='flex items-center'>
-                    <p className='font-bold text-2xl text-white'>50'000 ₮</p>
+                    <p className='font-bold text-2xl text-white'>50 000 ₮</p>
                     <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/ 2 өдөрт</p>
                 </div>
                 <div className='border-b border-slate-600'></div>
@@ -112,7 +112,7 @@ const bogino = () => {
                 <h1 className='text-white  text-2xl font-bold font-mono'>Стандарт багц</h1>
                 <p className='text-[#A5BBE5] text-sm'>6ш постер дизайн эх бэлтгэл</p>
                 <div className='flex items-center'>
-                    <p className='font-bold text-2xl text-white'>95'000 ₮</p>
+                    <p className='font-bold text-2xl text-white'>95 000 ₮</p>
                     <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/ 3 хоног</p>
                 </div>
                 <div className='border-b border-slate-600'></div>
@@ -150,7 +150,7 @@ const bogino = () => {
                 <h1 className='text-white  text-2xl font-bold font-mono'>Супер багц</h1>
                 <p className='text-[#A5BBE5] text-sm'>12ш посет дизайн эх бэлтгэл</p>
                 <div className='flex items-center'>
-                    <p className='font-bold text-2xl text-white'>170'000 ₮</p>
+                    <p className='font-bold text-2xl text-white'>170 000 ₮</p>
                     <p className='font-mono text-sm text-[#A5BBE5] ml-2'>/ 7 хоног</p>
                 </div>
                 <div className='border-b border-slate-600'></div>
@@ -186,4 +186,4 @@ const bogino = () => {
   )
 }
 
-export default bogino
+export default Bogino
