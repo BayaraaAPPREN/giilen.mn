@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className={shadow? 'fixed w-full py-2 shadow-md z-[100] bg-white ' : 'fixed w-full mt-4 h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full 2xl:px-16'>
                 <div className='flex items-center mx-8'>
-                    <Image src='/../public/logo/logo.png' width={60} height={60}/>
+                    <img className='h-16' src='/../logo/logo.png' />
                     <div className=''>
                         <div className={shadow?'text-slate-900 text-2xl mx-2': 'text-white text-2xl mx-2 font-normal'}>GIILEN.MN</div>
                         <div className='text-[10px] text-[#DF7200] mx-2'>TECHNOLOGY START UP</div>
