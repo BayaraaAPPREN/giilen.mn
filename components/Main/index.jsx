@@ -20,9 +20,7 @@ const Main = () => {
                 <p
                  className='text-slate-400 text-sm'>Бид бүхэн хэрэглэгчиддээ хамгийн найдвартай үйлчилгээг үзүүлэхийг зорьдог бөгөөд
                 түүндээ эзэн болж ажиллахыг зорьж байна.</p>
-                <p
-                 className='text-slate-400 text-sm'>Бид бүхэн хэрэглэгчиддээ хамгийн найдвартай үйлчилгээг үзүүлэхийг зорьдог бөгөөд
-                түүндээ эзэн болж ажиллахыг зорьж байна.</p>
+            
                 <div className='flex justify-center mt-4'>
                   <img className='w-14 h-14 mx-2' src='/../icon/1.png'/>
                   <img className='w-14 h-14 mx-2' src='/../icon/2.png'/>
